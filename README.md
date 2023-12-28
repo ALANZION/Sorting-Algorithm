@@ -20,6 +20,24 @@ To write a program to perform selection sort and insertion sort using python pro
 ## Program:
 i)	#Selection Sort
 ```
+''' 
+Program to sort the elements in the list using the Selection Sort algorithm.
+Developed by: ALAN ZION H
+RegisterNumber: 212223240004
+'''
+def selection_sort(nums):
+    for i in range(1,len(nums)):
+        item_to_insert=nums[i]
+        j=i-1
+        while j>=0 and nums[j]>item_to_insert:
+            nums[j+1]=nums[j]
+            j-=1
+        nums[j+1]=item_to_insert
+list_of_nums = eval(input())
+selection_sort(list_of_nums)
+print(list_of_nums)
+
+
 
 
 
@@ -28,6 +46,24 @@ i)	#Selection Sort
 ```
 ii)	#Insertion Sort
 ```
+''' 
+Program to sort the elements in the list using the Insertion Sort algorithm.
+Developed by: your name: ALAN ZION H
+RegisterNumber: 212223240004
+'''
+def insertion_sort(nums):
+    for i in range(1,len(nums)):
+        item_to_insert=nums[i]
+        j=i-1
+        while j>=0 and nums[j]>item_to_insert:
+            nums[j+1]=nums[j]
+            j-=1
+        nums[j+1]=item_to_insert
+list_of_nums = eval(input())
+insertion_sort(list_of_nums)
+print(list_of_nums)
+    
+    
 
 
 
@@ -37,6 +73,10 @@ ii)	#Insertion Sort
 ```
 
 ## Output:
+
+![Screenshot 2023-12-28 181231](https://github.com/ALANZION/Sorting-Algorithm/assets/145743064/ce180879-cb1d-468f-b510-a10ba2281634)
+
+![Screenshot 2023-12-28 182918](https://github.com/ALANZION/Sorting-Algorithm/assets/145743064/d35a1b76-36c7-44ac-bd04-fbf48d209f37)
 
 
 ## Result:
